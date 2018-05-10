@@ -1,0 +1,33 @@
+default:
+  suites:
+    default:
+      paths: ["%paths.base%/features/home.feature"]
+      contexts: [FeatureContext]
+
+  extensions:
+    Behat\MinkExtension:
+      default_session: my_session
+      base_url: https://www.google.com/      
+      browser_name: 'chrome'      
+      sessions:
+        my_session:
+          cross_browser_testing:
+            server: "crossbrowsertesting.com"
+            user: "yourcbtaccount@gmail.com"
+            key: "your cbt auth key"
+            capabilities: 
+              name: "Test Google"
+              build: "1.0.0"
+              record_video: true
+              record_network: true
+              max_duration: "14400"
+              os_api_name: "Mac10.12"
+              browser_api_name: "Chrome62x64"
+              resolution: "1920x1200"
+              
+    SensioLabs\Behat\PageObjectExtension:
+      namespaces:
+        page: [Page]
+        element: [Page]
+
+

@@ -1,0 +1,40 @@
+09:48:55.624 INFO [GridLauncherV3.launch] - Selenium build info: version: '3.11.0', revision: 'e59cfb3'
+09:48:55.625 INFO [GridLauncherV3$1.launch] - Launching a standalone Selenium Server on port 4444
+2018-05-10 09:48:55.714:INFO::main: Logging initialized @332ms to org.seleniumhq.jetty9.util.log.StdErrLog
+09:48:55.878 INFO [SeleniumServer.boot] - Welcome to Selenium for Workgroups....
+09:48:55.878 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+09:55:34.832 INFO [ActiveSessionFactory.apply] - Capabilities are: Capabilities {browser: chrome, browserName: chrome, chrome.extensions: [], chrome.switches: [--start-maximized], chromeOptions: {args: [--start-maximized], extensions: []}, ignoreZoomSetting: false, name: Behat feature suite, tags: [Wisnet-MacBook-Pro-2.local, PHP 7.1.14], version: }
+09:55:34.833 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.36.540469 (1881fd7f8641508feb5166b7cae561d87723cfa8) on port 46377
+Only local connections are allowed.
+09:55:35.887 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+09:55:36.255 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session c742893ee29020369bf65c27bdfe4cd7 (org.openqa.selenium.chrome.ChromeDriverService)
+09:55:40.284 INFO [ActiveSessions$1.onStop] - Removing session c742893ee29020369bf65c27bdfe4cd7 (org.openqa.selenium.chrome.ChromeDriverService)
+09:59:49.683 INFO [ActiveSessionFactory.apply] - Capabilities are: Capabilities {browser: chrome, browserName: chrome, chrome.extensions: [], chrome.switches: [--start-maximized], chromeOptions: {args: [--start-maximized], extensions: []}, ignoreZoomSetting: false, name: Behat feature suite, tags: [Wisnet-MacBook-Pro-2.local, PHP 7.1.14], version: }
+09:59:49.683 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.36.540469 (1881fd7f8641508feb5166b7cae561d87723cfa8) on port 17148
+Only local connections are allowed.
+09:59:50.406 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+09:59:50.475 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session a9841ea27b2f5d91f7bf5efb311eac21 (org.openqa.selenium.chrome.ChromeDriverService)
+09:59:54.929 INFO [ActiveSessions$1.onStop] - Removing session a9841ea27b2f5d91f7bf5efb311eac21 (org.openqa.selenium.chrome.ChromeDriverService)
+10:00:29.083 INFO [ActiveSessionFactory.apply] - Capabilities are: Capabilities {browser: chrome, browserName: chrome, chrome.extensions: [], chrome.switches: [--start-maximized], chromeOptions: {args: [--start-maximized], extensions: []}, ignoreZoomSetting: false, name: Behat feature suite, tags: [Wisnet-MacBook-Pro-2.local, PHP 7.1.14], version: }
+10:00:29.083 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.36.540469 (1881fd7f8641508feb5166b7cae561d87723cfa8) on port 12652
+Only local connections are allowed.
+10:00:29.800 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+10:00:29.850 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 6bdb2ace19c56b83cf944bc63472d31a (org.openqa.selenium.chrome.ChromeDriverService)
+10:00:32.994 INFO [ActiveSessions$1.onStop] - Removing session 6bdb2ace19c56b83cf944bc63472d31a (org.openqa.selenium.chrome.ChromeDriverService)
+10:04:33.184 INFO [ActiveSessionFactory.apply] - Capabilities are: Capabilities {browser: chrome, browserName: chrome, chrome.extensions: [], chrome.switches: [--start-maximized], chromeOptions: {args: [--start-maximized], extensions: []}, ignoreZoomSetting: false, name: Behat feature suite, tags: [Wisnet-MacBook-Pro-2.local, PHP 7.1.14], version: }
+10:04:33.184 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.36.540469 (1881fd7f8641508feb5166b7cae561d87723cfa8) on port 4395
+Only local connections are allowed.
+10:04:33.883 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+10:04:33.925 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session bbba44c15171ad5dcadbbbe850a54747 (org.openqa.selenium.chrome.ChromeDriverService)
+10:04:37.880 INFO [ActiveSessions$1.onStop] - Removing session bbba44c15171ad5dcadbbbe850a54747 (org.openqa.selenium.chrome.ChromeDriverService)
+10:05:25.460 INFO [ActiveSessionFactory.apply] - Capabilities are: Capabilities {browser: chrome, browserName: chrome, chrome.extensions: [], chrome.switches: [--start-maximized], chromeOptions: {args: [--start-maximized], extensions: []}, ignoreZoomSetting: false, name: Behat feature suite, tags: [Wisnet-MacBook-Pro-2.local, PHP 7.1.14], version: }
+10:05:25.460 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.36.540469 (1881fd7f8641508feb5166b7cae561d87723cfa8) on port 23211
+Only local connections are allowed.
+10:05:26.165 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+10:05:26.193 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session c958da0409ecd67f8ba74172e6bcbeae (org.openqa.selenium.chrome.ChromeDriverService)
+10:05:29.043 INFO [ActiveSessions$1.onStop] - Removing session c958da0409ecd67f8ba74172e6bcbeae (org.openqa.selenium.chrome.ChromeDriverService)

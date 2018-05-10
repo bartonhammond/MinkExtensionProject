@@ -1,0 +1,20 @@
+default:
+  suites:
+    default:
+       paths: ["%paths.base%/features/home.feature"]
+       contexts: [FeatureContext]
+  extensions:
+    Behat\MinkExtension:
+      browser_name: 'chrome'
+      goutte: ~
+      javascript_session: selenium2
+      selenium2:
+        wd_host: http://0.0.0.0:4444/wd/hub
+        capabilities: { "browser": "chrome", "version": "", 'chrome': {'switches':['--start-maximized']}}
+      base_url: https://www.google.com/
+
+    SensioLabs\Behat\PageObjectExtension:
+      namespaces:
+        page: [Page]
+        element: [Page]
+
